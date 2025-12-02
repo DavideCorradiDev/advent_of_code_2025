@@ -17,8 +17,6 @@ if __name__ == "__main__":
 
     rotations = []
     with open(args.file_path) as file:
-        counter = 0
-        accumulator = 50
         for line in file.readlines():
             direction = -1 if line[0] == "L" else 1
             amount = int(line[1:])
