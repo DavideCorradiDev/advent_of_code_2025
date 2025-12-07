@@ -9,7 +9,7 @@ def main2(input):
     return ans
 
 def test():
-    print("*** Unit tests - PASSED")
+    print("*** Unit tests. PASS")
 
 def parse_input(file_path):
     return []
